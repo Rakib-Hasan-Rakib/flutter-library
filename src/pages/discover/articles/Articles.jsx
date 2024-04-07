@@ -1,14 +1,17 @@
 import { useState } from "react";
 import articleData from "../../../../public/json/articles.json";
+import { LuSettings2 } from "react-icons/lu";
+
 
 const Articles = () => {
   const [seeAll, setSeeAll] = useState(false);
   return (
     <>
       <div className="flex justify-between items-center">
-        <h2 className="text-xl lg:text-2xl 2xl:text-4xl font-semibold my-2 lg:my-4">
+        <h2 className="section-title">
           Articles
         </h2>
+        <LuSettings2/>
         {seeAll ? (
           <button onClick={() => setSeeAll(false)} className="text-gray-500">
             See less

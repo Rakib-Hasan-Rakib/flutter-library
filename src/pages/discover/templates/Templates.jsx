@@ -6,7 +6,7 @@ import { TbDownload } from "react-icons/tb";
 const Templates = () => {
   return (
     <>
-      <h2 className="text-xl lg:text-2xl 2xl:text-4xl font-semibold my-2 lg:my-4">
+      <h2 className="section-title">
         Templates
       </h2>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-2 md:gap-4 2xl:gap-6 gap-y-12">
