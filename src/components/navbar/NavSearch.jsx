@@ -1,11 +1,9 @@
 import { CiSearch } from "react-icons/ci";
 
-
-
 const NavSearch = () => {
   return (
     <>
-      <div className="basis-1/2 relative">
+      <div className="relative basis-1/2">
         <input
           type="text"
           name="search"

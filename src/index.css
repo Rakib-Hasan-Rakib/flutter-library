@@ -5,3 +5,7 @@
 .section-title{
     @apply text-xl lg:text-2xl 2xl:text-4xl font-semibold my-2 lg:my-4
 }
+
+.footer_link:hover{
+    @apply text-green-500 duration-300
+}
