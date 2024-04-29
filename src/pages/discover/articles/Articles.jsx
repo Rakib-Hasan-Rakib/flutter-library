@@ -1,6 +1,5 @@
 import { useState } from "react";
 import articleData from "../../../../public/json/articles.json";
-import { LuSettings2 } from "react-icons/lu";
 
 
 const Articles = () => {
@@ -11,7 +10,6 @@ const Articles = () => {
         <h2 className="section-title">
           Articles
         </h2>
-        <LuSettings2/>
         {seeAll ? (
           <button onClick={() => setSeeAll(false)} className="text-gray-500">
             See less
